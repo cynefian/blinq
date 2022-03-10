@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suppressions
+	xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
+
+	<suppress>
+		<notes>
+			<![CDATA[This suppresses a CVE identified by OSS Index using the vulnerability name and packageUrl.]]>
+		</notes>
+		<packageUrl
+			regex="true">^pkg:maven/org\.apache\.tomcat\.embed/tomcat-embed-core@.*$
+			</packageUrl>
+			<vulnerabilityName>CVE-2019-0232</vulnerabilityName>
+	</suppress>
+	
+	<suppress>
+		<notes>
+			<![CDATA[This suppresses a CVE identified by OSS Index using the vulnerability name and packageUrl.]]>
+		</notes>
+		<packageUrl
+			regex="true">^pkg:maven/org\.apache\.tomcat\.embed/tomcat-embed-websocket@.*$
+			</packageUrl>
+			<vulnerabilityName>CVE-2019-0232</vulnerabilityName>
+	</suppress>
+	
+	<suppress>
+		<notes>
+			<![CDATA[This suppresses a CVE identified by OSS Index using the vulnerability name and packageUrl.]]>
+		</notes>
+		<packageUrl
+			regex="true">^pkg:maven/com\.fasterxml\.jackson\.core/jackson-databind@.*$
+			</packageUrl>
+			<vulnerabilityName>CVE-2018-14719</vulnerabilityName>
+	</suppress>
+	
+	<suppress>
+		<notes>
+			<![CDATA[This suppresses a CVE identified by OSS Index using the vulnerability name and packageUrl.]]>
+		</notes>
+		<packageUrl
+			regex="true">^pkg:maven/com\.fasterxml\.jackson\.core/jackson-databind@.*$
+			</packageUrl>
+			<vulnerabilityName>CVE-2018-19362</vulnerabilityName>
+	</suppress>
+	
+	<suppress>
+		<notes>
+			<![CDATA[This suppresses a CVE identified by OSS Index using the vulnerability name and packageUrl.]]>
+		</notes>
+		<packageUrl
+			regex="true">^pkg:maven/com\.fasterxml\.jackson\.core/jackson-databind@.*$
+			</packageUrl>
+			<vulnerabilityName>CVE-2018-19361</vulnerabilityName>
+	</suppress>
+	
+	<suppress>
+		<notes>
+			<![CDATA[This suppresses a CVE identified by OSS Index using the vulnerability name and packageUrl.]]>
+		</notes>
+		<packageUrl
+			regex="true">^pkg:maven/com\.fasterxml\.jackson\.core/jackson-databind@.*$
+			</packageUrl>
+			<vulnerabilityName>CVE-2018-14721</vulnerabilityName>
+	</suppress>
+	
+	<suppress>
+		<notes>
+			<![CDATA[This suppresses a CVE identified by OSS Index using the vulnerability name and packageUrl.]]>
+		</notes>
+		<packageUrl
+			regex="true">^pkg:maven/com\.fasterxml\.jackson\.core/jackson-databind@.*$
+			</packageUrl>
+			<vulnerabilityName>CVE-2018-19360</vulnerabilityName>
+	</suppress>
+	
+	<suppress>
+		<notes>
+			<![CDATA[This suppresses a CVE identified by OSS Index using the vulnerability name and packageUrl.]]>
+		</notes>
+		<packageUrl
+			regex="true">^pkg:maven/com\.fasterxml\.jackson\.core/jackson-databind@.*$
+			</packageUrl>
+			<vulnerabilityName>CVE-2018-14720</vulnerabilityName>
+	</suppress>
+
+
+</suppressions>

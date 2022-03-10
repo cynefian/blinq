@@ -1,0 +1,19 @@
+####################################################
+# Author: Sreenidhi
+# Email: sreenidhi.gundlupet@blinqlabs.com
+# Website: www.blinqlabs.com
+####################################################
+
+# -------------------------------------------------------------------------------------------------
+# build.version
+# This file identifies the Bamboo build that generated this particular artifact.
+# -------------------------------------------------------------------------------------------------
+
+Build Branch={build.branch}				
+Version Control Revision={vcs.revision}	
+Build Environment={build.env}
+Build Version Number={build.version}			
+Bamboo Build Result Key={bambooBuildKey}		
+Build Results URL={bamboo.url}			
+Build Timestamp={bamboo.build.time}
+
